@@ -5,6 +5,28 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\images\code.jpeg" />
+    <None Include="wwwroot\images\favicon.ico" />
+    <None Include="wwwroot\images\GDLogo.png" />
+    <None Include="wwwroot\images\GDLogo16x16.png" />
+    <None Include="wwwroot\images\GDLogo32x32.ico" />
+    <None Include="wwwroot\images\GDLogo32x32.png" />
+    <None Include="wwwroot\images\icons\aspnet.png" />
+    <None Include="wwwroot\images\icons\icons8-c.png" />
+    <None Include="wwwroot\images\icons\icons8-css3.png" />
+    <None Include="wwwroot\images\icons\icons8-facebook.png" />
+    <None Include="wwwroot\images\icons\icons8-gmail.png" />
+    <None Include="wwwroot\images\icons\icons8-html-5.png" />
+    <None Include="wwwroot\images\icons\icons8-layout.png" />
+    <None Include="wwwroot\images\icons\icons8-linkedin.png" />
+    <None Include="wwwroot\images\icons\icons8-nodejs.png" />
+    <None Include="wwwroot\images\icons\icons8-postgresql.png" />
+    <None Include="wwwroot\images\icons\icons8-sql.png" />
+    <None Include="wwwroot\images\icons\icons8-twitter.png" />
+    <None Include="wwwroot\images\icons\Javascript.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.3" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.0" />
   </ItemGroup>

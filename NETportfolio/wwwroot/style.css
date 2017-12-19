@@ -23,11 +23,22 @@ header {
     margin: 0;
 }
 
+.title {
+    padding-top: 0.35em;
+}
+
+.logo {
+    width: 4.25em;
+    height: auto;
+    margin-top: 1.5em;
+
+}
+
 .hero {
     display: block;
     position: absolute;
     width: 100%;
-    min-height: 450px;
+    min-height: 550px;
     max-height: 730px;
     z-index: -1;
     opacity: 0.4;
@@ -58,12 +69,24 @@ footer {
 
 @media (min-width: 700px) {
 
+    .logo {
+        float: left;
+        margin: 0;
+        padding-top: 0.5em;
+        padding-left: 1em;
+    }
+
     .container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 10px;
         padding: 20px 40px;
         align-items: stretch;
+    }
+
+    .technical
+    {
+        min-height: 18em;
     }
 
 
