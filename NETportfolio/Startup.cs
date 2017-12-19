@@ -31,7 +31,8 @@ namespace NETportfolio
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello World!");
+                context.Response.Redirect("/Home/Index", false);
+                await context.Response.WriteAsync("Uh oh, something went wrong.");
             });
         }
     }
