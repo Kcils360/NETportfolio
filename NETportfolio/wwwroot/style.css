@@ -66,6 +66,11 @@ footer {
         align-items: stretch;
     }
 
+    .technical
+    {
+        height: 18em;
+    }
+
 
     .card1 {
         grid-column: 1;
