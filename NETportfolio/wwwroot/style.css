@@ -169,6 +169,20 @@ a[href^=tel]:link, a[href^=tel]:visited {
         height: 100%;
         border-radius: 5px;
     }
+
+    .stickerfire {
+        background-image: url("images/StickerFire.png");
+        background-repeat: no-repeat;
+
+    }
+
+    .construction {
+        background-image: url("images/ConstructionWhere.png");
+    }
+
+    .casino {
+        background-image: url("images/CasinoWar.png");
+    }
 }
 
 @media (min-width: 1025px) {
