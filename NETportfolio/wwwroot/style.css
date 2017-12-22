@@ -69,12 +69,31 @@ header {
         background-color: rgba(255,255,255,0.10);
         border-radius: 5px;
         width: 100%;
-        height: 175px;
+        height: auto;
         margin: 10px 0;
+    }
+
+    .projects p {
+        background-color: rgba(52, 73, 94,0.70);
+        height: 100%;
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .projects h3 {
+        position: relative;
+        clear: both;
     }
 
 .projects a:link, .projects a:visited {
     color: #fff;
+}
+
+.web-img {
+    opacity: 0.25;
+    position: relative;
+    width: 100%;
+    height: auto;
 }
 
 .container2 {
@@ -154,6 +173,7 @@ a[href^=tel]:link, a[href^=tel]:visited {
         background-color: rgba(255,255,255,0.10);
         height: 100%;
         border-radius: 5px;
+        text-decoration: none;
     }
 
     .card3 {
@@ -161,6 +181,7 @@ a[href^=tel]:link, a[href^=tel]:visited {
         background-color: rgba(255,255,255,0.10);
         height: 100%;
         border-radius: 5px;
+        text-decoration: none;
     }
 
     .card4 {
@@ -168,24 +189,11 @@ a[href^=tel]:link, a[href^=tel]:visited {
         background-color: rgba(255,255,255,0.10);
         height: 100%;
         border-radius: 5px;
-    }
-
-    .stickerfire {
-        background-image: url("images/StickerFire.png");
-        background-repeat: no-repeat;
-
-    }
-
-    .construction {
-        background-image: url("images/ConstructionWhere.png");
-    }
-
-    .casino {
-        background-image: url("images/CasinoWar.png");
+        text-decoration: none;
     }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1450px) {
     .container2 {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
