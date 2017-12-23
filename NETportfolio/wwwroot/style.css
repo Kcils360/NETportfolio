@@ -100,6 +100,14 @@ header {
     padding: 0 1.5em;
 }
 
+embed {
+    min-height: 45%;
+}
+
+#resume {
+    position: center;
+}
+
 footer {
     background-color: #25373D;
     padding: 1em;

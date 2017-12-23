@@ -24,11 +24,16 @@
     <None Include="wwwroot\images\icons\icons8-sql.png" />
     <None Include="wwwroot\images\icons\icons8-twitter.png" />
     <None Include="wwwroot\images\icons\Javascript.png" />
+    <None Include="wwwroot\resume.html" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.3" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\files\" />
   </ItemGroup>
 
 </Project>
