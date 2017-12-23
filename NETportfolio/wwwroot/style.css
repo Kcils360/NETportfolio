@@ -64,21 +64,50 @@ header {
     background-color: #34495e;
 }
 
+    .projects h3 {
+        position: relative;
+        clear: both;
+    }
+
     .projects li {
         list-style: none;
         background-color: rgba(255,255,255,0.10);
         border-radius: 5px;
         width: 100%;
-        height: 175px;
+        height: auto;
         margin: 10px 0;
     }
+
+    .projects p {
+        background-color: rgba(52, 73, 94,0.70);
+        width: 95.5%;
+        height: auto;
+        padding: 0 10px;
+    }
+
 
 .projects a:link, .projects a:visited {
     color: #fff;
 }
 
+.card-content {
+        padding: 0 5px;
+        }
+
+.web-img {
+    opacity: 0.25;
+    /*position: absolute;*/
+    width: 100%;
+    height: auto;
+}
+
 .container2 {
     padding: 0 1.5em;
+
+}
+
+embed {
+    min-height: 45%;
 }
 
 footer {
@@ -94,6 +123,11 @@ footer a:link, footer a:visited {
 .contact {
     font-family: 'Raleway', sans-serif;
     color: #fff;
+    list-style: none;
+}
+
+.contact li {
+    margin-top: 10px;
 }
 
 a[href^=tel]:link, a[href^=tel]:visited {
@@ -121,7 +155,7 @@ a[href^=tel]:link, a[href^=tel]:visited {
     .container2 {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 50% 50%;
+        /*grid-template-rows: 50% 50%;*/
         grid-gap: 10px;
         padding: 20px 40px;
         align-items: stretch;
@@ -154,6 +188,7 @@ a[href^=tel]:link, a[href^=tel]:visited {
         background-color: rgba(255,255,255,0.10);
         height: 100%;
         border-radius: 5px;
+        text-decoration: none;
     }
 
     .card3 {
@@ -161,6 +196,7 @@ a[href^=tel]:link, a[href^=tel]:visited {
         background-color: rgba(255,255,255,0.10);
         height: 100%;
         border-radius: 5px;
+        text-decoration: none;
     }
 
     .card4 {
@@ -168,10 +204,15 @@ a[href^=tel]:link, a[href^=tel]:visited {
         background-color: rgba(255,255,255,0.10);
         height: 100%;
         border-radius: 5px;
+        text-decoration: none;
+    }
+
+    .contact li {
+        display: inline;
     }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1450px) {
     .container2 {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;

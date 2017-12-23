@@ -62,41 +62,48 @@
     <section class="projects">
         <h1>Projects</h1>
         <ul class="container2">
-            <li>
+            <li >
                 <a href="https://stickerfire20171113054734.azurewebsites.net/" target="_blank">
                     <div class="card1">
                         <div class="card-content">
                             <h3 class="card-title">StickerFire</h3>
-                            <p>StickerFire.whatever</p>
+                            <img class="web-img" src="~/images/StickerFire.png">
+                                <p>StickerFire is a project web app I worked on with a team.  The concept is a kickstarter type campaign to sell cusotom sticker designs.  It was written in C# using Visual Studio and the front end was made responsive using Bootstrap.  The app is hosted on Azure and we are using Azure Blob Container Strorage to handle image storage for each sticker campaign.</p>
                         </div>
                     </div>
                 </a>
             </li>
-            <li>
+            <li class="construction">
                 <a href="http://www.constructionwhere.info" target="_blank">
                     <div class="card3">
                         <div class="card-content">
                             <h3 class="card-title">Construction Where</h3>
-                            <p>contructionwhere.info</p>
+                            <img class="web-img" src="~/images/ConstructionWhere.png">
+                            <p>Construction Where is a small team-built single page web app.  The concept is to plot the locations of the most recent construction permits pulled in the city of Seattle.  We used the Seattle Open Data API to pull permit information and plotted the points using Google Maps API.  The app is written in JavaScript and the front end is pure HTML/CSS with a mobile first approach. </p>
+                                                      
                         </div>
                     </div>
                 </a>
             </li>
-            <li>
+            <li class="casino">
                 <a href="http://casinowar.fun" target="_blank">
                     <div class="card3">
                         <div class="card-content">
                             <h3 class="card-title">Casino War</h3>
-                            <p>casinowar.fun</p>
+                            <img class="web-img" src="~/images/CasinoWar.png">
+                                <p>Casino War is a basic web app game based on the popular casino table game.  The app is written in JavaScript with pure HTML/CSS for design.  </p>
                         </div>
                     </div>
                 </a>
             </li>
             <li>
                 <div class="card4">
-                    <div class="card-content">
-                        <h3 class="card-title">Resume</h3>
-                        <p>gregoryresume.doc</p>
+                    <a href="https://docs.google.com/document/d/1aNsiM1gMBB9DK8mY-07tkEsZbtf-wv0ATYR7x65GAeQ/edit?usp=sharing" target="_blank">
+                        <div class="card-content">
+                            <h3 class="card-title">R&eacute;sum&eacute;</h3>
+                            <embed src="~/files/GregoryDukes.pdf#&view=fitH&scrollbar=0" type="application/pdf" class="web-img" />
+                            <p>Click to view my R&eacute;sum&eacute;!</p>
+                    </a>
                     </div>
                 </div>
             </li>
@@ -110,7 +117,11 @@
             <a href="https://twitter.com/Dukes_GregoryD" target="_blank"><img src="~/images/icons/icons8-twitter.png" alt="twitter icon"></a>
             <a href="https://github.com/Kcils360" target="_blank"><img src="~/images/icons/icons8-github.png"></a>
         </p>
-        <p class="contact" > (303) 803-6383 | <a href="mailto:me@gregorydukes.com" target="_blank">me@gregorydukes.com</a></p>
+        <ul class="contact">
+            <li>(303) 803-6383</li="contact">
+            <li> | </li>
+            <li><a href="mailto:me@gregorydukes.com" target="_blank">me@gregorydukes.com</a></li>
+        </ul>
         <p>&copy; 2017 Gregory Dukes </p>
     </footer>
 </body>
