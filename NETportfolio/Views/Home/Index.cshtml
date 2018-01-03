@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -98,13 +100,22 @@
             </li>
             <li>
                 <div class="card4">
-                    <a href="https://docs.google.com/document/d/1aNsiM1gMBB9DK8mY-07tkEsZbtf-wv0ATYR7x65GAeQ/edit?usp=sharing" target="_blank">
+                    <a asp-controller="Resume" asp-action="Resume" target="_blank">
                         <div class="card-content">
                             <h3 class="card-title">R&eacute;sum&eacute;</h3>
-                            <embed src="~/files/GregoryDukes.pdf#&view=fitH&scrollbar=0" type="application/pdf" class="web-img" />
+                            <iframe 
+                                    title="GregoryResume"
+                                    width="98%"
+                                    height="300"
+                                    frameborder="0"
+                                    marginheight="0"
+                                    marginwidth="0"
+                                    src="~/files/GregoryDukes.pdf" >
+                                <p>Your browser doesn't support iFrames.</p>
+                            </iframe>
                             <p>Click to view my R&eacute;sum&eacute;!</p>
+                        </div>
                     </a>
-                    </div>
                 </div>
             </li>
         </ul>

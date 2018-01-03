@@ -24,7 +24,6 @@
     <None Include="wwwroot\images\icons\icons8-sql.png" />
     <None Include="wwwroot\images\icons\icons8-twitter.png" />
     <None Include="wwwroot\images\icons\Javascript.png" />
-    <None Include="wwwroot\resume.html" />
   </ItemGroup>
 
   <ItemGroup>

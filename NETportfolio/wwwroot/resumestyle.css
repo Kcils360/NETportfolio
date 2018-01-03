@@ -1,0 +1,55 @@
+﻿body {
+    background-color: #34495e;
+    color: #fff;
+    margin: 0;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+header {
+    background-color: #25373D;
+    padding: 0.25em;
+    margin: 0;
+}
+
+    header a:link, header a:visited {
+        text-decoration: none;
+        color: #fff;
+    }
+
+section {
+    width: 100%;
+    height: 15em;
+}
+
+footer {
+    /*position: absolute;
+    bottom: 0;*/
+}
+
+.contact {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    list-style: none;
+}
+
+    .contact li {
+        margin-top: 10px;
+    }
+
+a[href^=tel]:link, a[href^=tel]:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (min-width: 700px) {
+
+    section {
+        height: 22em;
+    }
+
+    .contact li {
+        display: inline;
+        
+    }
+}
