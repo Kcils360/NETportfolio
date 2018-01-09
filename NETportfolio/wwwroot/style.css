@@ -80,7 +80,7 @@ header {
 
     .projects p {
         background-color: rgba(52, 73, 94,0.70);
-        width: 95.5%;
+        /*width: auto;*/
         height: auto;
         padding: 0 10px;
     }
@@ -93,6 +93,7 @@ header {
 .card-content {
         padding: 0 5px;
         }
+
 
 .web-img {
     opacity: 0.25;
