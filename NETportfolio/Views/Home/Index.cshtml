@@ -1,13 +1,15 @@
-﻿<!DOCTYPE html>
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Raleway|Vollkorn" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="~/style.css">
-    <link rel="icon" href="~/images/favicon.ico">
     <title>GregoryDukes</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Vollkorn" rel="stylesheet">
+    <link rel="icon" href="~/images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="~/style.css">
 </head>
 <body>
     <header>
@@ -22,7 +24,7 @@
 
     <section class="technical">
         <h1 class="title">Technical Skills</h1>
-        <ul class="container">
+        <ul class="container1">
             <li>
                 <div class="card1">
                     <div class="card-content">
@@ -68,7 +70,7 @@
                         <div class="card-content">
                             <h3 class="card-title">StickerFire</h3>
                             <img class="web-img" src="~/images/StickerFire.png">
-                                <p>StickerFire is a project web app I worked on with a team.  The concept is a kickstarter type campaign to sell cusotom sticker designs.  It was written in C# using Visual Studio and the front end was made responsive using Bootstrap.  The app is hosted on Azure and we are using Azure Blob Container Strorage to handle image storage for each sticker campaign.</p>
+                                <p>StickerFire is a project web app I worked on with a team.  The concept is a kickstarter type campaign to sell custom sticker designs.  It was written in C# using Visual Studio and the front end was made responsive using Bootstrap.  The app is hosted on Azure and we are using Azure Blob Container Strorage to handle image storage for each sticker campaign.</p>
                         </div>
                     </div>
                 </a>
@@ -85,7 +87,7 @@
                     </div>
                 </a>
             </li>
-            <li class="casino">
+            <li>
                 <a href="http://casinowar.fun" target="_blank">
                     <div class="card3">
                         <div class="card-content">
@@ -98,13 +100,22 @@
             </li>
             <li>
                 <div class="card4">
-                    <a href="https://docs.google.com/document/d/1aNsiM1gMBB9DK8mY-07tkEsZbtf-wv0ATYR7x65GAeQ/edit?usp=sharing" target="_blank">
+                    <a asp-controller="Resume" asp-action="Resume" target="_blank">
                         <div class="card-content">
                             <h3 class="card-title">R&eacute;sum&eacute;</h3>
-                            <embed src="~/files/GregoryDukes.pdf#&view=fitH&scrollbar=0" type="application/pdf" class="web-img" />
+                            <iframe 
+                                    title="GregoryResume"
+                                    width="98%"
+                                    height="300"
+                                    frameborder="0"
+                                    marginheight="0"
+                                    marginwidth="0"
+                                    src="~/files/GregoryDukes.pdf" >
+                                <p>Your browser doesn't support iFrames.</p>
+                            </iframe>
                             <p>Click to view my R&eacute;sum&eacute;!</p>
+                        </div>
                     </a>
-                    </div>
                 </div>
             </li>
         </ul>
