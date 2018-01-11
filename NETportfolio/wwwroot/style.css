@@ -70,6 +70,10 @@ header {
     padding: 0.5em;
 }
 
+.skills {
+    padding: 1em;
+}
+
 .projects {
     background-color: #34495e;
 }
