@@ -43,7 +43,22 @@ header {
     width: 4.25em;
     height: auto;
     margin-top: 1.5em;
+}
 
+.navBar {
+    float: right;
+    list-style: none;
+    font-family: 'Vollkorn', serif;
+    font-size: .75em;
+    text-align: center;
+    margin-top: 2em;
+    margin-right: 2em;
+    background-color: #cccccc;
+}
+
+.navBar li {
+    display: inline;
+    padding: 10px, 30px, 10px 5px;
 }
 
 .hero {
